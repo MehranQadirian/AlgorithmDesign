@@ -10,7 +10,7 @@
 |             |Sum of Subsets|
 |             |Graph Coloring|
 |             |SubsetSum|
-|             |Traveling Salesman(Uploading Soon...)|
+|             |Traveling Salesman|
 
 > Project Status: Open  
 
@@ -21,7 +21,7 @@
   - [x] Sum of Subsets   : Type(WinForm)    , Exercise Sum of Subsets is written at the Windows Form level.
   - [x] Graph Coloring     : Type(WinForm)    , Exercise Graph Coloring is written at the Windows Form level.
   - [x] SubsetSum     : Type(WinForm)    , Exercise Sum of Subsets is written at the Windows Form level.
-  - [ ] Traveling Salesman : Type(WinForm)    , Exercise Traveling Salesman is written at the Windows Form level.
+  - [x] Traveling Salesman (TSPVisualizer): Type(WinForm)    , Exercise Traveling Salesman is written at the Windows Form level.
 
 ## 📅 Semester Details
 - **Semester**: 4th Semester
