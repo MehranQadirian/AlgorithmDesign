@@ -1,0 +1,26 @@
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe.config
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.pdb
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csprojAssemblyReference.cache
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.MainForm.resources
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.Properties.Resources.resources
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.GenerateResource.cache
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CoreCompileInputs.cache
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CopyComplete
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.exe
+C:\Users\Diamond\source\repos\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe.config
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.dll
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.xml
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csprojAssemblyReference.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.MainForm.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.Properties.Resources.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.GenerateResource.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CoreCompileInputs.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CopyComplete
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.pdb

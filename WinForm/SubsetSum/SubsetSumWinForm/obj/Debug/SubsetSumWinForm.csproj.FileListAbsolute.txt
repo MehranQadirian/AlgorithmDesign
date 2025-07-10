@@ -1,0 +1,10 @@
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.exe.config
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.exe
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.pdb
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csprojAssemblyReference.cache
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.Properties.Resources.resources
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csproj.GenerateResource.cache
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csproj.CoreCompileInputs.cache
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.exe
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.pdb
+C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.Form1.resources

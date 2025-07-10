@@ -1,0 +1,28 @@
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe.config
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.pdb
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csprojAssemblyReference.cache
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.MainForm.resources
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.Properties.Resources.resources
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.GenerateResource.cache
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CoreCompileInputs.cache
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.exe
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.pdb
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CopyComplete
+C:\Users\Diamond\source\repos\KruskalPrimAlgorithms\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.InfoForm.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe.config
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.dll
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.xml
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csprojAssemblyReference.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.MainForm.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.InfoForm.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.Properties.Resources.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.GenerateResource.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CoreCompileInputs.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CopyComplete
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.pdb

@@ -1,0 +1,7 @@
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.csprojAssemblyReference.cache
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.csproj.CoreCompileInputs.cache
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\bin\Debug\AllExercises.exe.config
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\bin\Debug\AllExercises.exe
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\bin\Debug\AllExercises.pdb
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.exe
+G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.pdb

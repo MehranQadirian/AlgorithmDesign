@@ -1,0 +1,73 @@
+{
+  "VerticesCount": 5,
+  "AdjacencyMatrix": [
+    [
+      0,
+      0,
+      31,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      35
+    ],
+    [
+      31,
+      0,
+      0,
+      33,
+      80
+    ],
+    [
+      18,
+      0,
+      33,
+      0,
+      84
+    ],
+    [
+      0,
+      35,
+      80,
+      84,
+      0
+    ]
+  ],
+  "Edges": [
+    {
+      "Source": 0,
+      "Destination": 3,
+      "Weight": 18
+    },
+    {
+      "Source": 0,
+      "Destination": 2,
+      "Weight": 31
+    },
+    {
+      "Source": 2,
+      "Destination": 3,
+      "Weight": 33
+    },
+    {
+      "Source": 1,
+      "Destination": 4,
+      "Weight": 35
+    },
+    {
+      "Source": 2,
+      "Destination": 4,
+      "Weight": 80
+    },
+    {
+      "Source": 3,
+      "Destination": 4,
+      "Weight": 84
+    }
+  ],
+  "GeneratedTime": "2025-06-06T01:24:19.2905279+03:30"
+}

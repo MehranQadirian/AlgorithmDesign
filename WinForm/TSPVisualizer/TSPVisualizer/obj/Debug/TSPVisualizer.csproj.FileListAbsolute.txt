@@ -1,0 +1,10 @@
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.exe.config
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.exe
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.pdb
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csprojAssemblyReference.cache
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.Properties.Resources.resources
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csproj.GenerateResource.cache
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csproj.CoreCompileInputs.cache
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.exe
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.pdb
+C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.MainForm.resources

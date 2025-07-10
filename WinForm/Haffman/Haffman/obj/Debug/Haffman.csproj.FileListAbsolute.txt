@@ -1,0 +1,20 @@
+C:\Users\Diamond\source\repos\Haffman\Haffman\bin\Debug\Haffman.exe.config
+C:\Users\Diamond\source\repos\Haffman\Haffman\bin\Debug\Haffman.exe
+C:\Users\Diamond\source\repos\Haffman\Haffman\bin\Debug\Haffman.pdb
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.csprojAssemblyReference.cache
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.Form1.resources
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.Properties.Resources.resources
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.csproj.GenerateResource.cache
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.csproj.CoreCompileInputs.cache
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.exe
+C:\Users\Diamond\source\repos\Haffman\Haffman\obj\Debug\Haffman.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\bin\Debug\Haffman.exe.config
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\bin\Debug\Haffman.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\bin\Debug\Haffman.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.csprojAssemblyReference.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.Form1.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.Properties.Resources.resources
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.GenerateResource.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.CoreCompileInputs.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.pdb

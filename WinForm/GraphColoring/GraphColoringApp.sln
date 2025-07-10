@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.36123.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphColoringApp", "GraphColoringApp\GraphColoringApp.csproj", "{F71656D2-D09D-4FF5-9C19-63BEE1691F66}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F71656D2-D09D-4FF5-9C19-63BEE1691F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71656D2-D09D-4FF5-9C19-63BEE1691F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71656D2-D09D-4FF5-9C19-63BEE1691F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71656D2-D09D-4FF5-9C19-63BEE1691F66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {740BB568-E9EA-470C-9069-A1F14A69D5DC}
+	EndGlobalSection
+EndGlobal
