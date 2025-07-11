@@ -142,8 +142,12 @@ namespace AllExercises
 
         static void RunNQueens()
         {
-            Console.Write("\nEnter the number of queens (N): ");
-            int n = int.Parse(Console.ReadLine());
+            Console.Write("Enter the number of queens (N): ");
+            if (!int.TryParse(Console.ReadLine(), out int n))
+            {
+                Console.WriteLine("Invalid input.");
+                return;
+            }
 
             var solver = new NQueensSolver();
 

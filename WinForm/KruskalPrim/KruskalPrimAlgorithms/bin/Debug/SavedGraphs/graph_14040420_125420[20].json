@@ -1,0 +1,1118 @@
+{
+  "VerticesCount": 20,
+  "AdjacencyMatrix": [
+    [
+      0,
+      20,
+      0,
+      19,
+      90,
+      0,
+      2,
+      23,
+      0,
+      78,
+      57,
+      22,
+      0,
+      71,
+      61,
+      39,
+      14,
+      0,
+      88,
+      89
+    ],
+    [
+      20,
+      0,
+      0,
+      0,
+      29,
+      69,
+      22,
+      66,
+      0,
+      70,
+      76,
+      15,
+      92,
+      0,
+      47,
+      61,
+      27,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      60,
+      84,
+      0,
+      11,
+      96,
+      53,
+      6,
+      46,
+      35,
+      10,
+      97,
+      0,
+      75,
+      22,
+      91
+    ],
+    [
+      19,
+      0,
+      0,
+      0,
+      90,
+      45,
+      87,
+      0,
+      37,
+      87,
+      4,
+      95,
+      0,
+      33,
+      93,
+      0,
+      0,
+      59,
+      24,
+      0
+    ],
+    [
+      90,
+      29,
+      0,
+      90,
+      0,
+      93,
+      43,
+      99,
+      6,
+      74,
+      55,
+      92,
+      0,
+      14,
+      64,
+      68,
+      0,
+      0,
+      8,
+      0
+    ],
+    [
+      0,
+      69,
+      60,
+      45,
+      93,
+      0,
+      99,
+      45,
+      78,
+      7,
+      62,
+      0,
+      0,
+      46,
+      0,
+      89,
+      53,
+      0,
+      2,
+      73
+    ],
+    [
+      2,
+      22,
+      84,
+      87,
+      43,
+      99,
+      0,
+      13,
+      61,
+      19,
+      45,
+      97,
+      20,
+      0,
+      7,
+      21,
+      35,
+      31,
+      28,
+      78
+    ],
+    [
+      23,
+      66,
+      0,
+      0,
+      99,
+      45,
+      13,
+      0,
+      10,
+      0,
+      30,
+      65,
+      0,
+      15,
+      75,
+      0,
+      0,
+      50,
+      41,
+      13
+    ],
+    [
+      0,
+      0,
+      11,
+      37,
+      6,
+      78,
+      61,
+      10,
+      0,
+      48,
+      5,
+      57,
+      66,
+      0,
+      93,
+      0,
+      0,
+      0,
+      9,
+      84
+    ],
+    [
+      78,
+      70,
+      96,
+      87,
+      74,
+      7,
+      19,
+      0,
+      48,
+      0,
+      61,
+      21,
+      47,
+      55,
+      18,
+      0,
+      0,
+      0,
+      0,
+      5
+    ],
+    [
+      57,
+      76,
+      53,
+      4,
+      55,
+      62,
+      45,
+      30,
+      5,
+      61,
+      0,
+      98,
+      0,
+      38,
+      0,
+      98,
+      15,
+      70,
+      0,
+      0
+    ],
+    [
+      22,
+      15,
+      6,
+      95,
+      92,
+      0,
+      97,
+      65,
+      57,
+      21,
+      98,
+      0,
+      29,
+      49,
+      61,
+      43,
+      81,
+      67,
+      6,
+      0
+    ],
+    [
+      0,
+      92,
+      46,
+      0,
+      0,
+      0,
+      20,
+      0,
+      66,
+      47,
+      0,
+      29,
+      0,
+      0,
+      97,
+      0,
+      0,
+      68,
+      76,
+      35
+    ],
+    [
+      71,
+      0,
+      35,
+      33,
+      14,
+      46,
+      0,
+      15,
+      0,
+      55,
+      38,
+      49,
+      0,
+      0,
+      70,
+      0,
+      26,
+      0,
+      56,
+      0
+    ],
+    [
+      61,
+      47,
+      10,
+      93,
+      64,
+      0,
+      7,
+      75,
+      93,
+      18,
+      0,
+      61,
+      97,
+      70,
+      0,
+      71,
+      61,
+      60,
+      0,
+      99
+    ],
+    [
+      39,
+      61,
+      97,
+      0,
+      68,
+      89,
+      21,
+      0,
+      0,
+      0,
+      98,
+      43,
+      0,
+      0,
+      71,
+      0,
+      70,
+      9,
+      35,
+      23
+    ],
+    [
+      14,
+      27,
+      0,
+      0,
+      0,
+      53,
+      35,
+      0,
+      0,
+      0,
+      15,
+      81,
+      0,
+      26,
+      61,
+      70,
+      0,
+      0,
+      23,
+      2
+    ],
+    [
+      0,
+      0,
+      75,
+      59,
+      0,
+      0,
+      31,
+      50,
+      0,
+      0,
+      70,
+      67,
+      68,
+      0,
+      60,
+      9,
+      0,
+      0,
+      2,
+      0
+    ],
+    [
+      88,
+      0,
+      22,
+      24,
+      8,
+      2,
+      28,
+      41,
+      9,
+      0,
+      0,
+      6,
+      76,
+      56,
+      0,
+      35,
+      23,
+      2,
+      0,
+      74
+    ],
+    [
+      89,
+      0,
+      91,
+      0,
+      0,
+      73,
+      78,
+      13,
+      84,
+      5,
+      0,
+      0,
+      35,
+      0,
+      99,
+      23,
+      2,
+      0,
+      74,
+      0
+    ]
+  ],
+  "Edges": [
+    {
+      "Source": 0,
+      "Destination": 6,
+      "Weight": 2
+    },
+    {
+      "Source": 5,
+      "Destination": 18,
+      "Weight": 2
+    },
+    {
+      "Source": 16,
+      "Destination": 19,
+      "Weight": 2
+    },
+    {
+      "Source": 17,
+      "Destination": 18,
+      "Weight": 2
+    },
+    {
+      "Source": 3,
+      "Destination": 10,
+      "Weight": 4
+    },
+    {
+      "Source": 8,
+      "Destination": 10,
+      "Weight": 5
+    },
+    {
+      "Source": 9,
+      "Destination": 19,
+      "Weight": 5
+    },
+    {
+      "Source": 2,
+      "Destination": 11,
+      "Weight": 6
+    },
+    {
+      "Source": 4,
+      "Destination": 8,
+      "Weight": 6
+    },
+    {
+      "Source": 11,
+      "Destination": 18,
+      "Weight": 6
+    },
+    {
+      "Source": 5,
+      "Destination": 9,
+      "Weight": 7
+    },
+    {
+      "Source": 6,
+      "Destination": 14,
+      "Weight": 7
+    },
+    {
+      "Source": 4,
+      "Destination": 18,
+      "Weight": 8
+    },
+    {
+      "Source": 8,
+      "Destination": 18,
+      "Weight": 9
+    },
+    {
+      "Source": 15,
+      "Destination": 17,
+      "Weight": 9
+    },
+    {
+      "Source": 2,
+      "Destination": 14,
+      "Weight": 10
+    },
+    {
+      "Source": 7,
+      "Destination": 8,
+      "Weight": 10
+    },
+    {
+      "Source": 2,
+      "Destination": 8,
+      "Weight": 11
+    },
+    {
+      "Source": 6,
+      "Destination": 7,
+      "Weight": 13
+    },
+    {
+      "Source": 7,
+      "Destination": 19,
+      "Weight": 13
+    },
+    {
+      "Source": 0,
+      "Destination": 16,
+      "Weight": 14
+    },
+    {
+      "Source": 4,
+      "Destination": 13,
+      "Weight": 14
+    },
+    {
+      "Source": 1,
+      "Destination": 11,
+      "Weight": 15
+    },
+    {
+      "Source": 7,
+      "Destination": 13,
+      "Weight": 15
+    },
+    {
+      "Source": 10,
+      "Destination": 16,
+      "Weight": 15
+    },
+    {
+      "Source": 9,
+      "Destination": 14,
+      "Weight": 18
+    },
+    {
+      "Source": 0,
+      "Destination": 3,
+      "Weight": 19
+    },
+    {
+      "Source": 6,
+      "Destination": 9,
+      "Weight": 19
+    },
+    {
+      "Source": 0,
+      "Destination": 1,
+      "Weight": 20
+    },
+    {
+      "Source": 6,
+      "Destination": 12,
+      "Weight": 20
+    },
+    {
+      "Source": 6,
+      "Destination": 15,
+      "Weight": 21
+    },
+    {
+      "Source": 9,
+      "Destination": 11,
+      "Weight": 21
+    },
+    {
+      "Source": 0,
+      "Destination": 11,
+      "Weight": 22
+    },
+    {
+      "Source": 1,
+      "Destination": 6,
+      "Weight": 22
+    },
+    {
+      "Source": 2,
+      "Destination": 18,
+      "Weight": 22
+    },
+    {
+      "Source": 0,
+      "Destination": 7,
+      "Weight": 23
+    },
+    {
+      "Source": 15,
+      "Destination": 19,
+      "Weight": 23
+    },
+    {
+      "Source": 16,
+      "Destination": 18,
+      "Weight": 23
+    },
+    {
+      "Source": 3,
+      "Destination": 18,
+      "Weight": 24
+    },
+    {
+      "Source": 13,
+      "Destination": 16,
+      "Weight": 26
+    },
+    {
+      "Source": 1,
+      "Destination": 16,
+      "Weight": 27
+    },
+    {
+      "Source": 6,
+      "Destination": 18,
+      "Weight": 28
+    },
+    {
+      "Source": 1,
+      "Destination": 4,
+      "Weight": 29
+    },
+    {
+      "Source": 11,
+      "Destination": 12,
+      "Weight": 29
+    },
+    {
+      "Source": 7,
+      "Destination": 10,
+      "Weight": 30
+    },
+    {
+      "Source": 6,
+      "Destination": 17,
+      "Weight": 31
+    },
+    {
+      "Source": 3,
+      "Destination": 13,
+      "Weight": 33
+    },
+    {
+      "Source": 2,
+      "Destination": 13,
+      "Weight": 35
+    },
+    {
+      "Source": 6,
+      "Destination": 16,
+      "Weight": 35
+    },
+    {
+      "Source": 12,
+      "Destination": 19,
+      "Weight": 35
+    },
+    {
+      "Source": 15,
+      "Destination": 18,
+      "Weight": 35
+    },
+    {
+      "Source": 3,
+      "Destination": 8,
+      "Weight": 37
+    },
+    {
+      "Source": 10,
+      "Destination": 13,
+      "Weight": 38
+    },
+    {
+      "Source": 0,
+      "Destination": 15,
+      "Weight": 39
+    },
+    {
+      "Source": 7,
+      "Destination": 18,
+      "Weight": 41
+    },
+    {
+      "Source": 4,
+      "Destination": 6,
+      "Weight": 43
+    },
+    {
+      "Source": 11,
+      "Destination": 15,
+      "Weight": 43
+    },
+    {
+      "Source": 3,
+      "Destination": 5,
+      "Weight": 45
+    },
+    {
+      "Source": 5,
+      "Destination": 7,
+      "Weight": 45
+    },
+    {
+      "Source": 6,
+      "Destination": 10,
+      "Weight": 45
+    },
+    {
+      "Source": 2,
+      "Destination": 12,
+      "Weight": 46
+    },
+    {
+      "Source": 5,
+      "Destination": 13,
+      "Weight": 46
+    },
+    {
+      "Source": 1,
+      "Destination": 14,
+      "Weight": 47
+    },
+    {
+      "Source": 9,
+      "Destination": 12,
+      "Weight": 47
+    },
+    {
+      "Source": 8,
+      "Destination": 9,
+      "Weight": 48
+    },
+    {
+      "Source": 11,
+      "Destination": 13,
+      "Weight": 49
+    },
+    {
+      "Source": 7,
+      "Destination": 17,
+      "Weight": 50
+    },
+    {
+      "Source": 2,
+      "Destination": 10,
+      "Weight": 53
+    },
+    {
+      "Source": 5,
+      "Destination": 16,
+      "Weight": 53
+    },
+    {
+      "Source": 4,
+      "Destination": 10,
+      "Weight": 55
+    },
+    {
+      "Source": 9,
+      "Destination": 13,
+      "Weight": 55
+    },
+    {
+      "Source": 13,
+      "Destination": 18,
+      "Weight": 56
+    },
+    {
+      "Source": 0,
+      "Destination": 10,
+      "Weight": 57
+    },
+    {
+      "Source": 8,
+      "Destination": 11,
+      "Weight": 57
+    },
+    {
+      "Source": 3,
+      "Destination": 17,
+      "Weight": 59
+    },
+    {
+      "Source": 2,
+      "Destination": 5,
+      "Weight": 60
+    },
+    {
+      "Source": 14,
+      "Destination": 17,
+      "Weight": 60
+    },
+    {
+      "Source": 0,
+      "Destination": 14,
+      "Weight": 61
+    },
+    {
+      "Source": 1,
+      "Destination": 15,
+      "Weight": 61
+    },
+    {
+      "Source": 6,
+      "Destination": 8,
+      "Weight": 61
+    },
+    {
+      "Source": 9,
+      "Destination": 10,
+      "Weight": 61
+    },
+    {
+      "Source": 11,
+      "Destination": 14,
+      "Weight": 61
+    },
+    {
+      "Source": 14,
+      "Destination": 16,
+      "Weight": 61
+    },
+    {
+      "Source": 5,
+      "Destination": 10,
+      "Weight": 62
+    },
+    {
+      "Source": 4,
+      "Destination": 14,
+      "Weight": 64
+    },
+    {
+      "Source": 7,
+      "Destination": 11,
+      "Weight": 65
+    },
+    {
+      "Source": 1,
+      "Destination": 7,
+      "Weight": 66
+    },
+    {
+      "Source": 8,
+      "Destination": 12,
+      "Weight": 66
+    },
+    {
+      "Source": 11,
+      "Destination": 17,
+      "Weight": 67
+    },
+    {
+      "Source": 4,
+      "Destination": 15,
+      "Weight": 68
+    },
+    {
+      "Source": 12,
+      "Destination": 17,
+      "Weight": 68
+    },
+    {
+      "Source": 1,
+      "Destination": 5,
+      "Weight": 69
+    },
+    {
+      "Source": 1,
+      "Destination": 9,
+      "Weight": 70
+    },
+    {
+      "Source": 10,
+      "Destination": 17,
+      "Weight": 70
+    },
+    {
+      "Source": 13,
+      "Destination": 14,
+      "Weight": 70
+    },
+    {
+      "Source": 15,
+      "Destination": 16,
+      "Weight": 70
+    },
+    {
+      "Source": 0,
+      "Destination": 13,
+      "Weight": 71
+    },
+    {
+      "Source": 14,
+      "Destination": 15,
+      "Weight": 71
+    },
+    {
+      "Source": 5,
+      "Destination": 19,
+      "Weight": 73
+    },
+    {
+      "Source": 4,
+      "Destination": 9,
+      "Weight": 74
+    },
+    {
+      "Source": 18,
+      "Destination": 19,
+      "Weight": 74
+    },
+    {
+      "Source": 2,
+      "Destination": 17,
+      "Weight": 75
+    },
+    {
+      "Source": 7,
+      "Destination": 14,
+      "Weight": 75
+    },
+    {
+      "Source": 1,
+      "Destination": 10,
+      "Weight": 76
+    },
+    {
+      "Source": 12,
+      "Destination": 18,
+      "Weight": 76
+    },
+    {
+      "Source": 0,
+      "Destination": 9,
+      "Weight": 78
+    },
+    {
+      "Source": 5,
+      "Destination": 8,
+      "Weight": 78
+    },
+    {
+      "Source": 6,
+      "Destination": 19,
+      "Weight": 78
+    },
+    {
+      "Source": 11,
+      "Destination": 16,
+      "Weight": 81
+    },
+    {
+      "Source": 2,
+      "Destination": 6,
+      "Weight": 84
+    },
+    {
+      "Source": 8,
+      "Destination": 19,
+      "Weight": 84
+    },
+    {
+      "Source": 3,
+      "Destination": 6,
+      "Weight": 87
+    },
+    {
+      "Source": 3,
+      "Destination": 9,
+      "Weight": 87
+    },
+    {
+      "Source": 0,
+      "Destination": 18,
+      "Weight": 88
+    },
+    {
+      "Source": 0,
+      "Destination": 19,
+      "Weight": 89
+    },
+    {
+      "Source": 5,
+      "Destination": 15,
+      "Weight": 89
+    },
+    {
+      "Source": 0,
+      "Destination": 4,
+      "Weight": 90
+    },
+    {
+      "Source": 3,
+      "Destination": 4,
+      "Weight": 90
+    },
+    {
+      "Source": 2,
+      "Destination": 19,
+      "Weight": 91
+    },
+    {
+      "Source": 1,
+      "Destination": 12,
+      "Weight": 92
+    },
+    {
+      "Source": 4,
+      "Destination": 11,
+      "Weight": 92
+    },
+    {
+      "Source": 3,
+      "Destination": 14,
+      "Weight": 93
+    },
+    {
+      "Source": 4,
+      "Destination": 5,
+      "Weight": 93
+    },
+    {
+      "Source": 8,
+      "Destination": 14,
+      "Weight": 93
+    },
+    {
+      "Source": 3,
+      "Destination": 11,
+      "Weight": 95
+    },
+    {
+      "Source": 2,
+      "Destination": 9,
+      "Weight": 96
+    },
+    {
+      "Source": 2,
+      "Destination": 15,
+      "Weight": 97
+    },
+    {
+      "Source": 6,
+      "Destination": 11,
+      "Weight": 97
+    },
+    {
+      "Source": 12,
+      "Destination": 14,
+      "Weight": 97
+    },
+    {
+      "Source": 10,
+      "Destination": 11,
+      "Weight": 98
+    },
+    {
+      "Source": 10,
+      "Destination": 15,
+      "Weight": 98
+    },
+    {
+      "Source": 4,
+      "Destination": 7,
+      "Weight": 99
+    },
+    {
+      "Source": 5,
+      "Destination": 6,
+      "Weight": 99
+    },
+    {
+      "Source": 14,
+      "Destination": 19,
+      "Weight": 99
+    }
+  ],
+  "GeneratedTime": "2025-07-11T12:54:20.909102+03:30"
+}

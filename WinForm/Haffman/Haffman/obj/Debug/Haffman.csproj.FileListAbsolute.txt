@@ -18,3 +18,13 @@ G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.CoreCompileInputs.cache
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.exe
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Haffman\Haffman\obj\Debug\Haffman.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\bin\Debug\Haffman.exe.config
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\bin\Debug\Haffman.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\bin\Debug\Haffman.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.csprojAssemblyReference.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.Form1.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.Properties.Resources.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.GenerateResource.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.CoreCompileInputs.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.pdb

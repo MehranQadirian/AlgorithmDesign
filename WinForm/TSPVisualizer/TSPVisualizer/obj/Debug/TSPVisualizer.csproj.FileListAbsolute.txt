@@ -8,3 +8,13 @@ C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualize
 C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.exe
 C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.pdb
 C:\Users\Diamond\source\repos\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.MainForm.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.exe.config
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\bin\Debug\TSPVisualizer.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csprojAssemblyReference.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.MainForm.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.Properties.Resources.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csproj.GenerateResource.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.csproj.CoreCompileInputs.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\TSPVisualizer\TSPVisualizer\obj\Debug\TSPVisualizer.pdb

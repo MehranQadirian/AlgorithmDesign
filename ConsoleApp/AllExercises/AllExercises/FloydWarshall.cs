@@ -42,8 +42,10 @@ namespace AllExercises
 
         private void PrintSolution(int[,] dist)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             int V = dist.GetLength(0);
-            Console.WriteLine("کوتاه‌ترین مسیر بین هر جفت رأس:");
+            Console.WriteLine("The shortest path between any pair of vertices:");
 
             for (int i = 0; i < V; i++)
             {

@@ -26,3 +26,17 @@ G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CopyComplete
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.exe
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe.config
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\KruskalPrimAlgorithms.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.dll
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\bin\Debug\Newtonsoft.Json.xml
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csprojAssemblyReference.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.MainForm.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.InfoForm.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.Properties.Resources.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.GenerateResource.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CoreCompileInputs.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.csproj.CopyComplete
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\KruskalPrim\KruskalPrimAlgorithms\obj\Debug\KruskalPrimAlgorithms.pdb

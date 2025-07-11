@@ -8,20 +8,24 @@ namespace AllExercises
 {
     public class GraphColoring
     {
+
         public bool CanColor(int[,] graph, int m)
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             int V = graph.GetLength(0);
             int[] color = new int[V];
 
             if (GraphColoringUtil(graph, m, color, 0, V))
             {
-                Console.WriteLine("راه حل رنگ‌آمیزی:");
+
+                Console.WriteLine("Coloring solution:");
                 for (int i = 0; i < V; i++)
-                    Console.WriteLine($"رأس {i + 1}: رنگ {color[i]}");
+                    Console.WriteLine($"Vertex {i + 1}: color {color[i]}");
                 return true;
             }
 
-            Console.WriteLine("راه حلی وجود ندارد");
+            Console.WriteLine("There is no solution");
             return false;
         }
 

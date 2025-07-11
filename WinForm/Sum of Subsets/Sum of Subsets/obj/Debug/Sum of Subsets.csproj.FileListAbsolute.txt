@@ -24,3 +24,16 @@ G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CopyComplete
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.exe
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe.config
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Sum of Subsets.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.dll
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\bin\Debug\Newtonsoft.Json.xml
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csprojAssemblyReference.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.MainForm.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum_of_Subsets.Properties.Resources.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.GenerateResource.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CoreCompileInputs.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.csproj.CopyComplete
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Sum of Subsets\Sum of Subsets\obj\Debug\Sum of Subsets.pdb

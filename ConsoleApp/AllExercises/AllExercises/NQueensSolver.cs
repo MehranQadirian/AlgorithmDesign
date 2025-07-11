@@ -11,37 +11,32 @@ namespace AllExercises
         public void Solve(int n)
         {
             int[,] board = new int[n, n];
-            if (SolveNQUtil(board, 0))
-            {
-                PrintSolution(board);
-            }
-            else
-            {
-                Console.WriteLine("هیچ راه حلی وجود ندارد");
-            }
+            bool found = SolveNQUtil(board, 0, n);
+            if (!found)
+                Console.WriteLine("There is no solution");
         }
 
-        private bool SolveNQUtil(int[,] board, int col)
+        private bool SolveNQUtil(int[,] board, int col, int N)
         {
-            int N = board.GetLength(0);
-
             if (col >= N)
+            {
+                PrintSolution(board);
+                Console.WriteLine();
                 return true;
+            }
 
+            bool res = false;
             for (int i = 0; i < N; i++)
             {
                 if (IsSafe(board, i, col))
                 {
                     board[i, col] = 1;
-
-                    if (SolveNQUtil(board, col + 1))
-                        return true;
-
+                    res = SolveNQUtil(board, col + 1, N) || res;
                     board[i, col] = 0;
                 }
             }
 
-            return false;
+            return res;
         }
 
         private bool IsSafe(int[,] board, int row, int col)

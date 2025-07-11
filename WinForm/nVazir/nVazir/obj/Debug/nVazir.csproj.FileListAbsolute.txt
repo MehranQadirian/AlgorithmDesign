@@ -18,3 +18,13 @@ G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\nVazir\nVazir\obj\Debug\nVazir.csproj.CoreCompileInputs.cache
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\nVazir\nVazir\obj\Debug\nVazir.exe
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\nVazir\nVazir\obj\Debug\nVazir.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\bin\Debug\nVazir.exe.config
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\bin\Debug\nVazir.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\bin\Debug\nVazir.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.csprojAssemblyReference.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.Form1.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.Properties.Resources.resources
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.csproj.GenerateResource.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.csproj.CoreCompileInputs.cache
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.exe
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\nVazir\nVazir\obj\Debug\nVazir.pdb
