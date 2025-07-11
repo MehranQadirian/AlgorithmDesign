@@ -67,7 +67,7 @@ namespace TSPVisualizer
             this.btnRunTSP.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRunTSP.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnRunTSP.ForeColor = System.Drawing.Color.White;
-            this.btnRunTSP.Location = new System.Drawing.Point(20, 85);
+            this.btnRunTSP.Location = new System.Drawing.Point(20, 101);
             this.btnRunTSP.Name = "btnRunTSP";
             this.btnRunTSP.Size = new System.Drawing.Size(130, 35);
             this.btnRunTSP.TabIndex = 1;
@@ -81,7 +81,7 @@ namespace TSPVisualizer
             this.btnStartAnimation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStartAnimation.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnStartAnimation.ForeColor = System.Drawing.Color.White;
-            this.btnStartAnimation.Location = new System.Drawing.Point(160, 85);
+            this.btnStartAnimation.Location = new System.Drawing.Point(160, 101);
             this.btnStartAnimation.Name = "btnStartAnimation";
             this.btnStartAnimation.Size = new System.Drawing.Size(140, 35);
             this.btnStartAnimation.TabIndex = 2;
@@ -95,7 +95,7 @@ namespace TSPVisualizer
             this.btnStopAnimation.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStopAnimation.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.btnStopAnimation.ForeColor = System.Drawing.Color.White;
-            this.btnStopAnimation.Location = new System.Drawing.Point(310, 85);
+            this.btnStopAnimation.Location = new System.Drawing.Point(310, 101);
             this.btnStopAnimation.Name = "btnStopAnimation";
             this.btnStopAnimation.Size = new System.Drawing.Size(140, 35);
             this.btnStopAnimation.TabIndex = 3;
@@ -105,7 +105,7 @@ namespace TSPVisualizer
             // cmbAlgorithm
             // 
             this.cmbAlgorithm.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbAlgorithm.Location = new System.Drawing.Point(470, 90);
+            this.cmbAlgorithm.Location = new System.Drawing.Point(470, 106);
             this.cmbAlgorithm.Name = "cmbAlgorithm";
             this.cmbAlgorithm.Size = new System.Drawing.Size(200, 31);
             this.cmbAlgorithm.TabIndex = 4;
@@ -115,7 +115,7 @@ namespace TSPVisualizer
             this.lblPathLength.AutoSize = true;
             this.lblPathLength.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.lblPathLength.ForeColor = System.Drawing.Color.DimGray;
-            this.lblPathLength.Location = new System.Drawing.Point(817, 430);
+            this.lblPathLength.Location = new System.Drawing.Point(817, 451);
             this.lblPathLength.Name = "lblPathLength";
             this.lblPathLength.Size = new System.Drawing.Size(103, 23);
             this.lblPathLength.TabIndex = 5;
@@ -126,7 +126,7 @@ namespace TSPVisualizer
             this.lblCityCount.AutoSize = true;
             this.lblCityCount.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblCityCount.ForeColor = System.Drawing.Color.DarkGray;
-            this.lblCityCount.Location = new System.Drawing.Point(807, 455);
+            this.lblCityCount.Location = new System.Drawing.Point(807, 476);
             this.lblCityCount.Name = "lblCityCount";
             this.lblCityCount.Size = new System.Drawing.Size(113, 23);
             this.lblCityCount.TabIndex = 6;
@@ -137,7 +137,7 @@ namespace TSPVisualizer
             this.lblTotalDistance.AutoSize = true;
             this.lblTotalDistance.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.lblTotalDistance.ForeColor = System.Drawing.Color.DarkGray;
-            this.lblTotalDistance.Location = new System.Drawing.Point(824, 480);
+            this.lblTotalDistance.Location = new System.Drawing.Point(824, 501);
             this.lblTotalDistance.Name = "lblTotalDistance";
             this.lblTotalDistance.Size = new System.Drawing.Size(96, 23);
             this.lblTotalDistance.TabIndex = 7;
@@ -148,7 +148,7 @@ namespace TSPVisualizer
             this.lstPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lstPath.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.lstPath.ItemHeight = 20;
-            this.lstPath.Location = new System.Drawing.Point(700, 85);
+            this.lstPath.Location = new System.Drawing.Point(700, 106);
             this.lstPath.Name = "lstPath";
             this.lstPath.Size = new System.Drawing.Size(220, 342);
             this.lstPath.TabIndex = 8;
@@ -156,7 +156,7 @@ namespace TSPVisualizer
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel1.Location = new System.Drawing.Point(3, 126);
+            this.panel1.Location = new System.Drawing.Point(3, 140);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(5, 470);
             this.panel1.TabIndex = 9;
@@ -164,7 +164,7 @@ namespace TSPVisualizer
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel2.Location = new System.Drawing.Point(3, 126);
+            this.panel2.Location = new System.Drawing.Point(3, 140);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(691, 5);
             this.panel2.TabIndex = 10;
@@ -172,7 +172,7 @@ namespace TSPVisualizer
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel3.Location = new System.Drawing.Point(689, 126);
+            this.panel3.Location = new System.Drawing.Point(689, 140);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(5, 470);
             this.panel3.TabIndex = 11;
@@ -180,7 +180,7 @@ namespace TSPVisualizer
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.MediumSlateBlue;
-            this.panel4.Location = new System.Drawing.Point(3, 591);
+            this.panel4.Location = new System.Drawing.Point(3, 605);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(691, 5);
             this.panel4.TabIndex = 12;
@@ -189,7 +189,7 @@ namespace TSPVisualizer
             // 
             this.panel5.BackColor = System.Drawing.Color.White;
             this.panel5.Controls.Add(this.titleLabel);
-            this.panel5.Location = new System.Drawing.Point(0, 30);
+            this.panel5.Location = new System.Drawing.Point(0, 51);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(928, 49);
             this.panel5.TabIndex = 13;
@@ -197,7 +197,7 @@ namespace TSPVisualizer
             // MainForm
             // 
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.ClientSize = new System.Drawing.Size(928, 600);
+            this.ClientSize = new System.Drawing.Size(928, 613);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel2);

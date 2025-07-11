@@ -25,6 +25,9 @@ namespace AllExercises
 
         public int FindMST(int[,] graph)
         {
+            PrintGraph(graph);
+            if (graph == null || graph.GetLength(0) == 0)
+                return 0;
             int V = graph.GetLength(0);
             List<Edge> edges = new List<Edge>();
 
@@ -67,7 +70,35 @@ namespace AllExercises
 
             return totalWeight;
         }
+        public static void PrintGraph(int[,] graph)
+        {
+            int V = graph.GetLength(0);
+            Console.WriteLine("Graph Matrix (Row: Source, Column: Destination):");
+            Console.WriteLine("================================================\n\n");
 
+            // Print column headers
+            Console.Write("\t");
+            for (int j = 0; j < V; j++)
+            {
+                Console.Write($"{j + 1}\t");
+            }
+            Console.WriteLine("\n" + new string('-', (V + 1) * 8));
+
+            // Print rows
+            for (int i = 0; i < V; i++)
+            {
+                Console.Write($"  |\t" + '\n');
+                Console.Write($"{i + 1} |\t");
+                for (int j = 0; j < V; j++)
+                {
+                    if (graph[i, j] == int.MaxValue)
+                        Console.Write("INF\t");
+                    else
+                        Console.Write(graph[i, j] + "\t");
+                }
+                Console.WriteLine('\n' + $"  |\t" + '\n' + $"  |\t");
+            }
+        }
         private int Find(Subset[] subsets, int i)
         {
             if (subsets[i].Parent != i)

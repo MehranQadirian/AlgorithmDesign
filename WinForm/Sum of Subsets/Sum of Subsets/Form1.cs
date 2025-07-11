@@ -23,6 +23,7 @@ namespace Sum_of_Subsets
             this.historyLabel.ForeColor = Color.FromArgb(193, 208, 255);
             number2TextBox.Text = "عدد دوم";
             number2TextBox.ForeColor = Color.Gray;
+            this.Icon = Properties.Resources.icon;
         }
 
         private void btnOpenTelegram_Click(object sender, EventArgs e)

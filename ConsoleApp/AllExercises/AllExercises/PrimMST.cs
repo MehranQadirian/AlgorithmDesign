@@ -10,6 +10,7 @@ namespace AllExercises
     {
         public int FindMST(int[,] graph)
         {
+            PrintGraph(graph);
             int V = graph.GetLength(0);
             int[] parent = new int[V];
             int[] key = new int[V];
@@ -47,6 +48,35 @@ namespace AllExercises
             return totalWeight;
         }
 
+        public static void PrintGraph(int[,] graph)
+        {
+            int V = graph.GetLength(0);
+            Console.WriteLine("Graph Matrix (Row: Source, Column: Destination):");
+            Console.WriteLine("================================================\n\n");
+
+            // Print column headers
+            Console.Write("\t");
+            for (int j = 0; j < V; j++)
+            {
+                Console.Write($"{j+1}\t");
+            }
+            Console.WriteLine("\n" + new string('-', (V + 1) * 8));
+
+            // Print rows
+            for (int i = 0; i < V; i++)
+            {
+                Console.Write($"  |\t" + '\n');
+                Console.Write($"{i+1} |\t");
+                for (int j = 0; j < V; j++)
+                {
+                    if (graph[i, j] == int.MaxValue)
+                        Console.Write("INF\t");
+                    else
+                        Console.Write(graph[i, j] + "\t");
+                }
+                Console.WriteLine('\n' + $"  |\t" + '\n' + $"  |\t");
+            }
+        }
         private int MinKey(int[] key, bool[] mstSet)
         {
             int min = int.MaxValue, minIndex = -1;

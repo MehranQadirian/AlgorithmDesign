@@ -28,3 +28,4 @@ H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffma
 H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.csproj.CoreCompileInputs.cache
 H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.exe
 H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Haffman.pdb
+H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\Haffman\Haffman\obj\Debug\Huffman.Information.resources

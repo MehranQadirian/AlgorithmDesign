@@ -11,7 +11,14 @@ namespace AllExercises
 
         public bool CanColor(int[,] graph, int m)
         {
+            PrintGraph(graph);
             Console.OutputEncoding = Encoding.UTF8;
+
+            if (m < 1)
+            {
+                Console.WriteLine("Number of colors must be at least 1");
+                return false;
+            }
 
             int V = graph.GetLength(0);
             int[] color = new int[V];
@@ -28,7 +35,35 @@ namespace AllExercises
             Console.WriteLine("There is no solution");
             return false;
         }
+        public static void PrintGraph(int[,] graph)
+        {
+            int V = graph.GetLength(0);
+            Console.WriteLine("Graph Matrix (Row: Source, Column: Destination):");
+            Console.WriteLine("================================================\n\n");
 
+            // Print column headers
+            Console.Write("\t");
+            for (int j = 0; j < V; j++)
+            {
+                Console.Write($"{j + 1}\t");
+            }
+            Console.WriteLine("\n" + new string('-', (V + 1) * 8));
+
+            // Print rows
+            for (int i = 0; i < V; i++)
+            {
+                Console.Write($"  |\t" + '\n');
+                Console.Write($"{i + 1} |\t");
+                for (int j = 0; j < V; j++)
+                {
+                    if (graph[i, j] == int.MaxValue)
+                        Console.Write("INF\t");
+                    else
+                        Console.Write(graph[i, j] + "\t");
+                }
+                Console.WriteLine('\n' + $"  |\t" + '\n' + $"  |\t");
+            }
+        }
         private bool GraphColoringUtil(int[,] graph, int m, int[] color, int v, int V)
         {
             if (v == V)

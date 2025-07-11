@@ -27,6 +27,9 @@ namespace AllExercises
 
         public T Dequeue()
         {
+            if (data.Count == 0)
+                throw new InvalidOperationException("Queue is empty");
+
             int li = data.Count - 1;
             T frontItem = data[0];
             data[0] = data[li];
