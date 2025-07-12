@@ -7,6 +7,7 @@ using GraphColoringApp.Utils;
 using GraphColoringApp.Models;
 using System.Drawing.Drawing2D;
 using System.Collections.Generic;
+using System.Reflection;
 
 namespace GraphColoringApp.Forms
 {
@@ -21,14 +22,13 @@ namespace GraphColoringApp.Forms
         private int animationStep = 0;
         private float animationProgress = 0f; // از 0 تا 1 برای افکت نرمی
         private Timer animationTimer;
-
-        private List<Color> colorPalette = new List<Color> {
-            Color.Red, Color.Green, Color.Blue,
-            Color.Orange, Color.Purple, Color.Cyan,
-            Color.Brown, Color.Magenta, Color.YellowGreen,
-            Color.DeepSkyBlue, Color.HotPink
-        };
-
+        
+        private List<Color> colorPalette = typeof(Color)
+    .GetProperties(BindingFlags.Public | BindingFlags.Static)
+    .Where(p => p.PropertyType == typeof(Color))
+    .Select(p => (Color)p.GetValue(null))
+    .Where(c => c.GetBrightness() < 0.6f) // فیلتر بر اساس روشنایی
+    .ToList();
 
         readonly Color[] palette = {
             Color.Red, Color.Green, Color.Blue,
