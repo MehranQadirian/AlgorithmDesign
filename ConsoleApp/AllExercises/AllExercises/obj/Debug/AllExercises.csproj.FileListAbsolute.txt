@@ -5,10 +5,10 @@ G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\bin\Debug\A
 G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\bin\Debug\AllExercises.pdb
 G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.exe
 G:\VS Projects\C#\Console\Algorithm Design\AllExercises\AllExercises\obj\Debug\AllExercises.pdb
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.exe.config
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.pdb
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.csprojAssemblyReference.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.csproj.CoreCompileInputs.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.exe.config
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\bin\Debug\AllExercises.pdb
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.csprojAssemblyReference.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.csproj.CoreCompileInputs.cache
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.exe
+G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\ConsoleApp\AllExercises\AllExercises\obj\Debug\AllExercises.pdb

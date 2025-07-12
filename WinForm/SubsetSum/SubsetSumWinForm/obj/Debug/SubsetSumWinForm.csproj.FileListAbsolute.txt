@@ -8,13 +8,3 @@ C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\Subset
 C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.exe
 C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.pdb
 C:\Users\Diamond\source\repos\SubsetSumWinForm\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.Form1.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.exe.config
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\bin\Debug\SubsetSumWinForm.pdb
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csprojAssemblyReference.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.Form1.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.Properties.Resources.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csproj.GenerateResource.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.csproj.CoreCompileInputs.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\SubsetSum\SubsetSumWinForm\obj\Debug\SubsetSumWinForm.pdb

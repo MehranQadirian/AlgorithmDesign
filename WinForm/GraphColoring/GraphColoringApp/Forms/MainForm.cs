@@ -47,7 +47,6 @@ namespace GraphColoringApp.Forms
             animationTimer.Interval = 5; 
             animationTimer.Tick += AnimationTimer_Tick;
 
-            this.Icon = Properties.Resources.icon;
 
             MouseDown += MainForm_MouseDown;
             MouseMove += MainForm_MouseMove;

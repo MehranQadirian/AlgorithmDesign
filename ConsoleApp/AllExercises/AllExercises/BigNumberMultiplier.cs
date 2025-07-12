@@ -1,113 +1,64 @@
 ﻿using System;
-using System.Linq;
 using System.Text;
 
 namespace AllExercises
 {
+    /// <summary>
+    /// Implements multiplication of two arbitrarily large non-negative integers represented as strings,
+    /// based on a digit-by-digit simulation of elementary school multiplication.
+    /// </summary>
     public class BigNumberMultiplier
     {
+        /// <summary>
+        /// Multiplies two large integers represented as strings.
+        /// </summary>
+        /// <param name="num1">First non-negative integer as string</param>
+        /// <param name="num2">Second non-negative integer as string</param>
+        /// <returns>Product of the two numbers as string</returns>
         public string Multiply(string num1, string num2)
         {
-            // اعتبارسنجی ورودی‌ها
-            if (string.IsNullOrWhiteSpace(num1)) num1 = "0";
-            if (string.IsNullOrWhiteSpace(num2)) num2 = "0";
+            // Step 1: Handle edge case when one of the numbers is "0"
+            if (num1 == "0" || num2 == "0")
+                return "0";
 
-            if (!num1.All(char.IsDigit) || !num2.All(char.IsDigit))
+            int n = num1.Length;
+            int m = num2.Length;
+
+            // Step 2: Create an array to store intermediate results
+            int[] result = new int[n + m];
+
+            // Step 3: Multiply each digit from right to left (like manual multiplication)
+            for (int i = n - 1; i >= 0; i--)
             {
-                Console.ForegroundColor = ConsoleColor.Red;
-                Console.WriteLine("Error: Input must contain only digits");
-                Console.ResetColor();
-                return "Invalid Input";
-            }
+                int digit1 = num1[i] - '0';
 
-            // حذف صفرهای غیرضروری از ابتدا
-            num1 = num1.TrimStart('0');
-            num2 = num2.TrimStart('0');
-
-            if (num1.Length == 0) num1 = "0";
-            if (num2.Length == 0) num2 = "0";
-
-            // نمایش ورودی‌ها به صورت زیبا
-            Console.WriteLine("\nInputs :");
-            Console.WriteLine($"First Number: {FormatNumber(num1)}");
-            Console.WriteLine($"Second Number: {FormatNumber(num2)}");
-            Console.WriteLine(new string('-', 30));
-
-            // عملیات ضرب
-            int[] result = new int[num1.Length + num2.Length];
-
-            for (int i = num1.Length - 1; i >= 0; i--)
-            {
-                for (int j = num2.Length - 1; j >= 0; j--)
+                for (int j = m - 1; j >= 0; j--)
                 {
-                    int product = (num1[i] - '0') * (num2[j] - '0');
-                    int sum = product + result[i + j + 1];
+                    int digit2 = num2[j] - '0';
 
-                    result[i + j + 1] = sum % 10;
-                    result[i + j] += sum / 10;
+                    int position1 = i + j;
+                    int position2 = i + j + 1;
+
+                    int product = digit1 * digit2;
+                    int sum = product + result[position2];
+
+                    result[position2] = sum % 10;           // Assign digit
+                    result[position1] += sum / 10;          // Carry to previous digit
                 }
             }
 
-            // ساخت نتیجه نهایی
+            // Step 4: Convert result array to string (skipping leading zeros)
             StringBuilder sb = new StringBuilder();
-            foreach (int num in result)
+
+            foreach (int digit in result)
             {
-                if (sb.Length == 0 && num == 0) continue;
-                sb.Append(num);
+                if (sb.Length == 0 && digit == 0)
+                    continue;
+
+                sb.Append(digit);
             }
 
-            string finalResult = sb.Length == 0 ? "0" : sb.ToString();
-
-            // نمایش نتیجه به صورت زیبا
-            Console.WriteLine("\nMultiplication Result:");
-            Console.WriteLine($"\t  {FormatNumber(num1)}");
-            Console.WriteLine($"\t×" +
-                $"\n\t  {FormatNumber(num2)}");
-            Console.WriteLine(new string('=', finalResult.Length + 2));
-            Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine(FormatNumber(finalResult));
-            Console.ResetColor();
-
-            return finalResult;
-        }
-
-        // تابع کمکی برای فرمت کردن اعداد با جداکننده هزارگان
-        private string FormatNumber(string number)
-        {
-            if (string.IsNullOrEmpty(number)) return "0";
-
-            var formatted = new StringBuilder();
-            int count = 0;
-
-            for (int i = number.Length - 1; i >= 0; i--)
-            {
-                formatted.Insert(0, number[i]);
-                count++;
-
-                if (count % 3 == 0 && i != 0)
-                {
-                    formatted.Insert(0, ",");
-                }
-            }
-
-            return formatted.ToString();
-        }
-
-        // روش جایگزین برای نمایش مراحل ضرب (اختیاری)
-        public void PrettyMultiply(string num1, string num2)
-        {
-            string result = Multiply(num1, num2);
-
-            Console.WriteLine("\nCalculation Steps:");
-            for (int i = num2.Length - 1, pad = 0; i >= 0; i--, pad++)
-            {
-                int digit = num2[i] - '0';
-                string partial = Multiply(num1, digit.ToString());
-                Console.WriteLine($"{partial}{new string(' ', pad)}");
-            }
-
-            Console.WriteLine(new string('-', result.Length));
-            Console.WriteLine(result);
+            return sb.ToString();
         }
     }
 }

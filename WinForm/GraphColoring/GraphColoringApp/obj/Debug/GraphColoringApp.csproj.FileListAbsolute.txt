@@ -26,17 +26,3 @@ G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.csproj.CopyComplete
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.exe
 G:\VS Projects\C#\Console\Algorithm Design\Algorithm-Design---Instructor-Rasoul-Taghipour\Algorithm-Design---Instructor-Rasoul-Taghipour\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.pdb
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\bin\Debug\GraphColoringApp.exe.config
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\bin\Debug\GraphColoringApp.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\bin\Debug\GraphColoringApp.pdb
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\bin\Debug\Newtonsoft.Json.dll
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\bin\Debug\Newtonsoft.Json.xml
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.csprojAssemblyReference.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.Forms.DeveloperInfoForm.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.Forms.MainForm.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.Properties.Resources.resources
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.csproj.GenerateResource.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.csproj.CoreCompileInputs.cache
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.csproj.CopyComplete
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.exe
-H:\GitHub (MehranQadirian)\MehranQadirian\AlgorithmDesign\WinForm\GraphColoring\GraphColoringApp\obj\Debug\GraphColoringApp.pdb

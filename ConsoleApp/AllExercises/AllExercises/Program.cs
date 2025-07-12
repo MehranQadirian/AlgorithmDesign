@@ -1,37 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
 
 namespace AllExercises
 {
     class Program
     {
-
         static void Main()
         {
             while (true)
             {
                 Console.Clear();
-                Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("\n*** Algorithms Menu ***");
-                Console.WriteLine("1. Multiplying Large Numbers");
-                Console.WriteLine("2. Prim's Algorithm (Minimum Spanning Tree)");
-                Console.WriteLine("3. Kruskal's Algorithm (Minimum Spanning Tree)");
-                Console.WriteLine("4. Huffman Algorithm (Compression)");
-                Console.WriteLine("5. N-Minister's Problem");
-                Console.WriteLine("6. Subset Sum");
-                Console.WriteLine("7. Graph Coloring");
-                Console.WriteLine("8. Floyd-Warshall Algorithm");
-                Console.WriteLine("0. Exit");
-                Console.ForegroundColor = ConsoleColor.White;
-
+                PrintMenu();
 
                 Console.Write("\nPlease enter the number of the desired algorithm: ");
                 var key = Console.ReadKey();
                 Console.WriteLine();
+
                 Console.Clear();
                 switch (key.KeyChar)
                 {
@@ -60,267 +44,269 @@ namespace AllExercises
                         RunFloydWarshall();
                         break;
                     case '0':
+                        Console.WriteLine("\nExiting program. Goodbye!");
                         return;
                     default:
-                        Console.WriteLine("Invalid option!Please select a number from 0 to 8.");
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Invalid option! Please select a number from 0 to 8.");
+                        Console.ResetColor();
                         break;
                 }
 
-                Console.WriteLine("\nPress a key to return to the main menu...");
-                Console.ReadLine();
-                int total = 100;
-                Console.WriteLine("Processing...");
-                for (int i = 0; i <= total; i++)
-                {
-                    Console.Write($"\rProgress: {i}% [");
-                    int progress = (i * 50) / total;
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.Write(new string('#', progress));
-                    Console.ForegroundColor = ConsoleColor.White;
-                    Console.Write(new string('-', 50 - progress));
-                    Console.Write("]");
-                    Thread.Sleep(5);
-                }
-                Console.WriteLine("\nDone!");
+                Console.WriteLine("\nPress any key to return to the main menu...");
+                Console.ReadKey();
             }
+        }
+
+        static void PrintMenu()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine("\n*** Algorithms Menu ***");
+            Console.WriteLine("1. Multiplying Large Numbers");
+            Console.WriteLine("2. Prim's Algorithm (Minimum Spanning Tree)");
+            Console.WriteLine("3. Kruskal's Algorithm (Minimum Spanning Tree)");
+            Console.WriteLine("4. Huffman Algorithm (Compression)");
+            Console.WriteLine("5. N-Queens Problem");
+            Console.WriteLine("6. Subset Sum Problem");
+            Console.WriteLine("7. Graph Coloring");
+            Console.WriteLine("8. Floyd-Warshall Algorithm");
+            Console.WriteLine("0. Exit");
+            Console.ResetColor();
         }
 
         static void RunBigNumberMultiplication()
         {
             var multiplier = new BigNumberMultiplier();
 
-            Console.WriteLine("\nMultiplying large numbers:");
-            Console.Write("Enter the first number : ");
+            Console.WriteLine("=== Multiplying Large Numbers ===");
+            Console.Write("Enter the first number: ");
             string num1 = Console.ReadLine();
-
-            Console.Write("Enter the second number : ");
+            Console.Write("Enter the second number: ");
             string num2 = Console.ReadLine();
 
-            // روش ساده
             string result = multiplier.Multiply(num1, num2);
-            Console.WriteLine($"\nFinal result: {result}");
-            Console.Write("\nDo you need me to show you the steps of multiplication step by step? [y/n] ");
-            var key = Console.ReadKey();
-            switch (key.KeyChar)
-            {
-                case 'y':
-                    multiplier.PrettyMultiply(num1, num2);
-                    break;
-                case 'n':
-                    Console.WriteLine("\n\tYou skipped.");
-                    break;
-                case 'Y':
-                    multiplier.PrettyMultiply(num1, num2);
-                    break;
-                case 'N':
-                    Console.WriteLine("\n\tYou skipped.");
-                    break;
-                default:
-                    Console.WriteLine("You entered an incorrect character, please enter either y or n.");
-                    break;
-            }
+
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\nResult:\n{num1} × {num2} = {result}");
+            Console.ResetColor();
         }
+
         static void RunPrimMST()
         {
             int[,] graph = {
-            {0, 2, 0, 6, 0},
-            {2, 0, 3, 8, 5},
-            {0, 3, 0, 0, 7},
-            {6, 8, 0, 0, 9},
-            {0, 5, 7, 9, 0}
-        };
+                {0, 2, 0, 6, 0},
+                {2, 0, 3, 8, 5},
+                {0, 3, 0, 0, 7},
+                {6, 8, 0, 0, 9},
+                {0, 5, 7, 9, 0}
+            };
 
             var prim = new PrimMST();
-            Console.WriteLine("\n Total weight of minimum spanning tree (prime): " + prim.FindMST(graph));
+
+            Console.WriteLine("=== Prim's Algorithm: Minimum Spanning Tree ===");
+            Console.WriteLine("Input graph (adjacency matrix):");
+            PrintGraph(graph);
+
+            int totalWeight = prim.FindMST(graph);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\nTotal weight of the MST: {totalWeight}");
+            Console.ResetColor();
         }
 
         static void RunKruskalMST()
         {
             int[,] graph = {
-            {0, 2, 0, 6, 0},
-            {2, 0, 3, 8, 5},
-            {0, 3, 0, 0, 7},
-            {6, 8, 0, 0, 9},
-            {0, 5, 7, 9, 0}
-        };
+                {0, 2, 0, 6, 0},
+                {2, 0, 3, 8, 5},
+                {0, 3, 0, 0, 7},
+                {6, 8, 0, 0, 9},
+                {0, 5, 7, 9, 0}
+            };
 
             var kruskal = new KruskalMST();
-            Console.WriteLine("\nTotal weight of the minimum spanning tree (Kruskal): " + kruskal.FindMST(graph));
+
+            Console.WriteLine("=== Kruskal's Algorithm: Minimum Spanning Tree ===");
+            Console.WriteLine("Input graph (adjacency matrix):");
+            PrintGraph(graph);
+
+            int totalWeight = kruskal.FindMST(graph);
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"\nTotal weight of the MST: {totalWeight}");
+            Console.ResetColor();
         }
 
         static void RunHuffmanCoding()
         {
-            Console.Write("\nEnter text to compress : ");
+            Console.WriteLine("=== Huffman Coding (Compression) ===");
+            Console.Write("Enter text to compress: ");
             string text = Console.ReadLine();
 
             var huffman = new HuffmanCoding();
-            huffman.EncodeAndDisplay(text);
+            var codes = huffman.Encode(text);
+
+            Console.WriteLine("\nHuffman codes for each character:");
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            foreach (var kvp in codes)
+            {
+                string key = kvp.Key == ' ' ? "[space]" : kvp.Key.ToString();
+                Console.WriteLine($"'{key}': {kvp.Value}");
+            }
+            Console.ResetColor();
         }
 
         static void RunNQueens()
         {
+            Console.WriteLine("=== N-Queens Problem ===");
+            Console.Write("Enter number of queens (N): ");
+
+            if (!int.TryParse(Console.ReadLine(), out int n) || n <= 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. N must be a positive integer.");
+                Console.ResetColor();
+                return;
+            }
+
             var solver = new NQueensSolver();
-
-            Console.WriteLine("\n=== N-Queens Problem Solver ===");
-            Console.WriteLine("Enter the number of queens (n) between 1 and 20:");
-
-            // دریافت ورودی با اعتبارسنجی پیشرفته
-            int n;
-            while (true)
-            {
-                Console.Write("n = ");
-                if (int.TryParse(Console.ReadLine(), out n))
-                {
-                    if (n >= 1 && n <= 20) break;
-                    Console.WriteLine("Please enter a number between 1 and 20.");
-                }
-                else
-                {
-                    Console.WriteLine("Invalid input! Please enter a valid integer.");
-                }
-            }
-
-            // نمایش منوی گزینه‌ها
-            Console.WriteLine("\nSelect an option:");
-            Console.WriteLine("1. Find first solution (fastest)");
-            Console.WriteLine("2. Find all solutions");
-            Console.WriteLine("3. Benchmark performance");
-            Console.Write("Your choice (1-3): ");
-
-            int choice;
-            while (!int.TryParse(Console.ReadLine(), out choice) || choice < 1 || choice > 3)
-            {
-                Console.Write("Invalid choice. Please enter 1, 2 or 3: ");
-            }
-
-            // پردازش بر اساس انتخاب کاربر
-            switch (choice)
-            {
-                case 1:
-                    Console.WriteLine("\nFinding first solution...");
-                    solver.Solve(n, findAllSolutions: false, printBoards: true);
-                    break;
-
-                case 2:
-                    if (n > 10)
-                    {
-                        Console.WriteLine("\nWarning: Finding all solutions for n > 10 may take significant time.");
-                        Console.WriteLine("Do you want to continue? (y/n)");
-                        if (Console.ReadLine().ToLower() != "y")
-                        {
-                            Console.WriteLine("Operation canceled.");
-                            return;
-                        }
-                    }
-                    Console.WriteLine("\nFinding all solutions...");
-                    solver.Solve(n, findAllSolutions: true, printBoards: n <= 10);
-                    break;
-
-                case 3:
-                    Console.WriteLine("\nRunning benchmark...");
-                    solver.Benchmark();
-                    break;
-            }
-
-            // نمایش اطلاعات تکمیلی
-            if (choice != 3 && n > 1)
-            {
-                Console.WriteLine("\nAdditional information:");
-                solver.DisplaySolutionCountsUpTo(Math.Min(n, 10));
-
-                if (n > 8)
-                {
-                    Console.WriteLine("\nTip: For n > 8, consider using the benchmark option");
-                    Console.WriteLine("to compare performance across different board sizes.");
-                }
-            }
-
-            Console.WriteLine("\nOperation completed. Press any key to continue...");
-            Console.ReadKey();
+            Console.WriteLine($"\nA solution for {n}-Queens:");
+            solver.Solve(n);
         }
 
         static void RunSubsetSum()
         {
-            // مجموعه اعداد پیش‌فرض
-            int[] defaultSet = { 3, 34, 4, 12, 5, 2 };
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine("=== Subset Sum Problem Solver ===");
+            Console.ResetColor();
 
-            Console.WriteLine("\n=== Subset Sum Problem Solver ===");
+            int[] set;
 
-            // انتخاب مجموعه اعداد
-            Console.WriteLine("\nCurrent number set: " + string.Join(", ", defaultSet));
-            Console.Write("Do you want to use a custom set? (y/n): ");
+            Console.WriteLine("\nChoose input method:");
+            Console.WriteLine("1. Enter your own set");
+            Console.WriteLine("2. Generate random set");
+            Console.Write("Your choice (1 or 2): ");
 
-            int[] workingSet = defaultSet;
-            if (Console.ReadLine().ToLower() == "y")
+            var choice = Console.ReadKey();
+
+            Random rnd = new Random();
+            switch (choice.KeyChar)
             {
-                Console.WriteLine("Enter numbers separated by commas (e.g., 3,34,4,12,5,2):");
-                string input = Console.ReadLine();
-                try
-                {
-                    workingSet = input.Split(',')
-                                     .Select(x => int.Parse(x.Trim()))
-                                     .ToArray();
-                }
-                catch
-                {
-                    Console.WriteLine("Invalid input! Using default set instead.");
-                    workingSet = defaultSet;
-                }
-            }
+                case '1':
+                    Console.Write("\nEnter integers separated by spaces: ");
+                    string input = Console.ReadLine();
+                    try
+                    {
+                        set = input.Split(new[] { ' ', ',' }, StringSplitOptions.RemoveEmptyEntries)
+                                   .Select(int.Parse)
+                                   .Where(x => x > 0)
+                                   .ToArray();
 
-            // دریافت جمع هدف
-            int targetSum;
-            while (true)
-            {
-                Console.Write("\nEnter target sum (non-negative integer): ");
-                if (int.TryParse(Console.ReadLine(), out targetSum) && targetSum >= 0)
+                        if (set.Length == 0)
+                            throw new Exception("No valid positive integers entered.");
+                    }
+                    catch
+                    {
+                        Console.ForegroundColor = ConsoleColor.Red;
+                        Console.WriteLine("Invalid input. Please enter only positive integers.");
+                        Console.ResetColor();
+                        return;
+                    }
                     break;
-                Console.WriteLine("Invalid input! Please enter a non-negative integer.");
+                default:
+                    // Generate a random set of positive integers
+                    
+                    int size = rnd.Next(5, 10); // Length of the set between 5 and 9
+                    set = new int[size];
+                    for (int i = 0; i < size; i++)
+                        set[i] = rnd.Next(1, 20); // Numbers between 1 and 19
+
+                    Console.WriteLine($"\nGenerated random set: {{ {string.Join(", ", set)} }}");
+                    break;
             }
-
-            var subsetSum = new SubsetSum();
-
-            // بررسی وجود زیرمجموعه
-            bool exists = subsetSum.IsSubsetSum(workingSet, targetSum);
-            Console.WriteLine($"\nDoes a subset with sum {targetSum} exist? {(exists ? "YES" : "NO")}");
-
-            // اگر زیرمجموعه‌ای وجود دارد، نمایش همه موارد
-            if (exists)
+            Console.Write("\nEnter the target sum: ");
+            if (!int.TryParse(Console.ReadLine(), out int target) || target < 0)
             {
-                Console.WriteLine("\nFinding all possible subsets...");
-                var allSubsets = subsetSum.FindAllSubsets(workingSet, targetSum);
-
-                Console.WriteLine($"\nFound {allSubsets.Count} subset(s):");
-                foreach (var subset in allSubsets)
-                {
-                    Console.WriteLine($"- {string.Join(" + ", subset)} = {subset.Sum()}");
-                }
-            }
-
-            Console.WriteLine("\nPress any key to continue...");
-            Console.ReadKey();
-        }
-
-        static void RunGraphColoring()
-        {
-            int[,] graph = {
-            {0, 1, 1, 1},
-            {1, 0, 1, 0},
-            {1, 1, 0, 1},
-            {1, 0, 1, 0}
-                            };
-
-            Console.Write("\nEnter the number of available colors: ");
-            if (!int.TryParse(Console.ReadLine(), out int m))
-            {
-                Console.WriteLine("Invalid input");
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Invalid input. Target sum must be a non-negative integer.");
+                Console.ResetColor();
                 return;
             }
 
+            var solver = new SubsetSum();
+            bool result = solver.IsSubsetSum(set, target);
 
-            var coloring = new GraphColoring();
-            coloring.CanColor(graph, m);
+            Console.ForegroundColor = result ? ConsoleColor.Green : ConsoleColor.Red;
+            Console.WriteLine($"\nResult: {(result ? "YES" : "NO")}, a subset " +
+                              $"{(result ? "DOES" : "does NOT")} exist with sum = {target}.");
+            Console.ResetColor();
         }
+
+
+
+
+        static void RunGraphColoring()
+        {
+            Console.WriteLine("=== Graph Coloring Problem (Random Graph Mode) ===\n");
+
+            // Step 1: Parameters for graph generation
+            Console.Write("To make your graph multi-by-multi, enter an integer between 2 and 20 : ");
+            int vertices = int.Parse(Console.ReadLine()); // You can change this for larger graphs
+            double edgeProbability = 0.3; // Chance that an edge exists between two vertices (0 to 1)
+            int maxColors = 20; // Number of colors to test
+
+            Console.WriteLine($"Generating a random graph with {vertices} vertices...");
+            int[,] graph = GenerateRandomGraph(vertices, edgeProbability);
+
+            // Step 2: Display adjacency matrix
+            Console.WriteLine("\nGenerated Adjacency Matrix:");
+            for (int i = 0; i < vertices; i++)
+            {
+                for (int j = 0; j < vertices; j++)
+                    Console.Write(graph[i, j] + " ");
+                Console.WriteLine();
+            }
+
+            // Step 3: Run the coloring algorithm
+            Console.WriteLine($"\nTrying to color the graph with {maxColors} color(s)...\n");
+
+            var solver = new GraphColoring();
+            bool success = solver.Solve(graph, maxColors);
+
+            // Step 4: Display result
+            Console.WriteLine("\n--------------------------------------");
+            if (success)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Result: ✅ The graph CAN be colored using {maxColors} color(s).");
+            }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Result: ❌ The graph CANNOT be colored using only {maxColors} color(s).");
+            }
+            Console.ResetColor();
+            Console.WriteLine("--------------------------------------\n");
+        }
+
+        static int[,] GenerateRandomGraph(int V, double edgeProbability)
+        {
+            Random rand = new Random();
+            int[,] graph = new int[V, V];
+
+            for (int i = 0; i < V; i++)
+            {
+                for (int j = i + 1; j < V; j++)
+                {
+                    if (rand.NextDouble() < edgeProbability)
+                    {
+                        graph[i, j] = graph[j, i] = 1;
+                    }
+                }
+            }
+
+            return graph;
+        }
+
+
 
         static void RunFloydWarshall()
         {
@@ -329,17 +315,31 @@ namespace AllExercises
         {int.MaxValue, 0, 3, int.MaxValue},
         {int.MaxValue, int.MaxValue, 0, 1},
         {int.MaxValue, int.MaxValue, int.MaxValue, 0}
-                };
+    };
+
+            Console.WriteLine("\nInput graph:");
+            PrintGraph(graph);
 
             var floyd = new FloydWarshall();
-            floyd.FindShortestPaths(graph);
+            int[,] dist = floyd.FindShortestPaths(graph); // اکنون خروجی متد را می‌گیریم
+
+            Console.WriteLine("\nShortest paths matrix:");
+            PrintGraph(dist);
         }
 
         static void PrintGraph(int[,] graph)
         {
             int V = graph.GetLength(0);
+
+            // جدول مرتب با سربرگ شماره رئوس برای خوانایی بهتر
+            Console.Write("\t");
+            for (int i = 0; i < V; i++)
+                Console.Write($"[{i}]\t");
+            Console.WriteLine();
+
             for (int i = 0; i < V; i++)
             {
+                Console.Write($"[{i}]\t");
                 for (int j = 0; j < V; j++)
                 {
                     if (graph[i, j] == int.MaxValue)
@@ -352,4 +352,3 @@ namespace AllExercises
         }
     }
 }
-

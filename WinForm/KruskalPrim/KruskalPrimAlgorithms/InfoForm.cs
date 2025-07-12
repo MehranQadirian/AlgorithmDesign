@@ -25,7 +25,6 @@ namespace KruskalPrimAlgorithms
         {
             InitializeComponents(themeColor, radius);
             UpdateLanguage(isEnglish);
-            this.Icon = Properties.Resources.info_icon;
         }
 
         private void InitializeComponents(Color themeColor, int radius)

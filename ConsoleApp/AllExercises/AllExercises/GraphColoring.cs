@@ -1,97 +1,91 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AllExercises
 {
+    /// <summary>
+    /// Solves the M-Coloring problem using backtracking.
+    /// Determines whether it's possible to color a graph with at most M colors
+    /// such that no two adjacent vertices have the same color.
+    /// </summary>
     public class GraphColoring
     {
-
-        public bool CanColor(int[,] graph, int m)
+        /// <summary>
+        /// Attempts to color the graph and prints the result.
+        /// </summary>
+        /// <param name="graph">Adjacency matrix of the graph</param>
+        /// <param name="maxColors">Maximum number of colors allowed</param>
+        /// <returns>True if a valid coloring exists, otherwise false</returns>
+        public bool Solve(int[,] graph, int maxColors)
         {
-            PrintGraph(graph);
-            Console.OutputEncoding = Encoding.UTF8;
+            int numVertices = graph.GetLength(0);
+            int[] colors = new int[numVertices];
 
-            if (m < 1)
+            bool isSolvable = TryColoring(graph, maxColors, colors, 0);
+
+            Console.WriteLine("\n--- Graph Coloring Result ---");
+            if (isSolvable)
             {
-                Console.WriteLine("Number of colors must be at least 1");
-                return false;
-            }
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"Success: The graph was colored using {maxColors} color(s).");
+                Console.ResetColor();
 
-            int V = graph.GetLength(0);
-            int[] color = new int[V];
-
-            if (GraphColoringUtil(graph, m, color, 0, V))
-            {
-
-                Console.WriteLine("Coloring solution:");
-                for (int i = 0; i < V; i++)
-                    Console.WriteLine($"Vertex {i + 1}: color {color[i]}");
-                return true;
-            }
-
-            Console.WriteLine("There is no solution");
-            return false;
-        }
-        public static void PrintGraph(int[,] graph)
-        {
-            int V = graph.GetLength(0);
-            Console.WriteLine("Graph Matrix (Row: Source, Column: Destination):");
-            Console.WriteLine("================================================\n\n");
-
-            // Print column headers
-            Console.Write("\t");
-            for (int j = 0; j < V; j++)
-            {
-                Console.Write($"{j + 1}\t");
-            }
-            Console.WriteLine("\n" + new string('-', (V + 1) * 8));
-
-            // Print rows
-            for (int i = 0; i < V; i++)
-            {
-                Console.Write($"  |\t" + '\n');
-                Console.Write($"{i + 1} |\t");
-                for (int j = 0; j < V; j++)
+                for (int i = 0; i < numVertices; i++)
                 {
-                    if (graph[i, j] == int.MaxValue)
-                        Console.Write("INF\t");
-                    else
-                        Console.Write(graph[i, j] + "\t");
+                    Console.WriteLine($"Vertex {i + 1}: Color {colors[i]}");
                 }
-                Console.WriteLine('\n' + $"  |\t" + '\n' + $"  |\t");
             }
+            else
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine($"Failure: The graph cannot be colored using only {maxColors} color(s).");
+                Console.ResetColor();
+            }
+
+            return isSolvable;
         }
-        private bool GraphColoringUtil(int[,] graph, int m, int[] color, int v, int V)
+
+        /// <summary>
+        /// Recursively tries to assign colors to each vertex using backtracking.
+        /// </summary>
+        private bool TryColoring(int[,] graph, int maxColors, int[] colors, int vertex)
         {
-            if (v == V)
+            int totalVertices = graph.GetLength(0);
+
+            // Base case: all vertices are colored
+            if (vertex == totalVertices)
                 return true;
 
-            for (int c = 1; c <= m; c++)
+            for (int color = 1; color <= maxColors; color++)
             {
-                if (IsSafe(graph, color, v, c, V))
+                if (IsColorValid(graph, colors, vertex, color))
                 {
-                    color[v] = c;
+                    colors[vertex] = color;
 
-                    if (GraphColoringUtil(graph, m, color, v + 1, V))
+                    if (TryColoring(graph, maxColors, colors, vertex + 1))
                         return true;
 
-                    color[v] = 0;
+                    // Backtrack
+                    colors[vertex] = 0;
                 }
             }
 
+            // No valid color found
             return false;
         }
 
-        private bool IsSafe(int[,] graph, int[] color, int v, int c, int V)
+        /// <summary>
+        /// Checks whether assigning a specific color to a vertex is valid.
+        /// </summary>
+        private bool IsColorValid(int[,] graph, int[] colors, int vertex, int proposedColor)
         {
-            for (int i = 0; i < V; i++)
+            int totalVertices = graph.GetLength(0);
+
+            for (int neighbor = 0; neighbor < totalVertices; neighbor++)
             {
-                if (graph[v, i] == 1 && color[i] == c)
+                if (graph[vertex, neighbor] == 1 && colors[neighbor] == proposedColor)
                     return false;
             }
+
             return true;
         }
     }

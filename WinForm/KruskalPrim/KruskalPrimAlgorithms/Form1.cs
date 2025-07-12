@@ -58,7 +58,7 @@ namespace KruskalPrimAlgorithms
             RoundControls();
             InitializeSaveDirectory();
             LoadSavedFilesList();
-            this.Icon = Properties.Resources.icon;
+            this.Icon = SystemIcons.Shield;
         }
 
         private void InitializeSaveDirectory()

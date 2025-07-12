@@ -28,7 +28,6 @@ namespace Haffman
             InitializeComponent();
             InitializeUI();
             ApplyTheme(Theme.Light);
-            this.Icon = Properties.Resources.icon;
         }
 
         private void InitializeUI()

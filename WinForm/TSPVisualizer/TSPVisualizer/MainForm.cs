@@ -88,13 +88,12 @@ namespace TSPVisualizer
         private Panel titleBar;
         private Button btnClose, btnMinimize;
         private Point lastPoint;
-        private PictureBox iconForm;
 
         private void InitializeTitleBar()
         {
             titleBar = new Panel()
             {
-                Height = 40,
+                Height = 30,
                 Dock = DockStyle.Top,
                 BackColor = Color.FromArgb(45, 45, 48)
             };
@@ -108,14 +107,7 @@ namespace TSPVisualizer
                     this.Top += e.Y - lastPoint.Y;
                 }
             };
-            iconForm = new PictureBox()
-            {
-                Size = new Size(50,50),
-                Dock = DockStyle.Left,
-                Image = Properties.Resources.icons8_journey_40px_1,
-                Padding = new Padding(10,2,0,2)
-            };
-            titleBar.Controls.Add(iconForm);
+
             btnClose = new Button()
             {
                 Text = "X",

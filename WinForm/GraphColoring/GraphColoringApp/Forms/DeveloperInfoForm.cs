@@ -10,7 +10,6 @@ namespace GraphColoringApp.Forms
         {
             InitializeComponent();
             ApplyTheme();
-            this.Icon = Properties.Resources.info_icon;
         }
 
         private void BtnClose_Click(object sender, EventArgs e)

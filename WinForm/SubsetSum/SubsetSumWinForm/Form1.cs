@@ -16,7 +16,7 @@ namespace SubsetSumWinForm
         public Form1()
         {
             InitializeComponent();
-            this.Icon = Properties.Resources.icon;
+
             // مقداردهی اولیه combo ها
             comboLanguage.Items.AddRange(new string[] { "English", "فارسی" });
             comboTheme.Items.AddRange(new string[] { "Light", "Dark" , "Blue" , "Red" , "Green"});

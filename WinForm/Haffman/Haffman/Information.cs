@@ -18,6 +18,7 @@ namespace Huffman
             InitializeComponent();
             InitializeUI();
             LoadEnglishText();
+            this.Icon = SystemIcons.Information;
             this.MinimumSize = new Size(400, 300);
         }
 
